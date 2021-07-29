@@ -8,7 +8,7 @@ namespace JSONChallenge.Bonus
 {
     class Transaction
     {
-        public int OrderId { get; set; }
+        public string OrderId { get; set; }
         public Customer Customer { get; set; }
         public List<LineItems> LineItems { get; set; }
         public DateTime PurchaseDate { get; set; }

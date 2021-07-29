@@ -12,6 +12,6 @@ namespace JSONChallenge.Bonus
         public string AddressLine2 { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public int zipcode { get; set; }
+        public string zipcode { get; set; }
     }
 }
